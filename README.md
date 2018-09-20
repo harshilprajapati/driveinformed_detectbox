@@ -33,9 +33,9 @@ python3 detect_boxes.py --inputdir input/ --outputdir output/
 
 ### Sample Output
 
-![Sample Input](https://github.com/harshilprajapati/driveinformed_detectbox/input/1099.png)
+![Sample Input](https://github.com/harshilprajapati/driveinformed_detectbox/blob/master/input/1099.jpg)
 
-![Sample Input](https://github.com/harshilprajapati/driveinformed_detectbox/output/1099.png)
+![Sample Input](https://github.com/harshilprajapati/driveinformed_detectbox/blob/master/output/1099.jpg)
 
 ```output/1099.json```
 ```
