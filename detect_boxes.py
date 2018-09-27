@@ -9,7 +9,7 @@
 
 # import libraries
 from json import dumps
-from os import listdir
+from os import listdir,getcwd
 from argparse import ArgumentParser
 import cv2
 
@@ -100,9 +100,9 @@ def main():
 
         # if the file is a '.jpg'
         if '.jpg' in input_image:
-
+            
             # read the image
-            img = cv2.imread(input_image)
+            img = cv2.imread(getcwd()+'/'+in_dir+input_image)
 
             # get binary image post thresholding
             thresh = get_edges(img)
